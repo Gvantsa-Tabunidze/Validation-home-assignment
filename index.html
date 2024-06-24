@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form validation</title>
+   <!-- This is Eric Meyer's reset -->
+   <link rel="stylesheet" href="css-reset.css">
+
+   <!-- This is my own stylesheet -->
+   <link rel="stylesheet" href="stylee.css">
+   <!-- Font-awesome kit -->
+   <script src="https://kit.fontawesome.com/ed83a1faf6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  
+<section>
+  
+  <form action="#" id ="formValidation">
+    <div>
+      <div class="inner-container">
+      <label for="firstnameField">First name:</label>
+      <input type="text" name = "firstname" id ="firstnameField" placeholder ="your first name" autocomplete = "given-name">
+      </div>
+      <p class="error-text" id="error-firstname"></p>
+    
+    </div>
+    <div>
+      <div class="inner-container">
+      <label for="lastnameField">Last name:</label>
+      <input type="text" name = "lastname" id ="lastnameField" placeholder = "your last name" autocomplete="family-name">
+      
+    </div>
+    <p class="error-text" id="error-lastname"></p>
+    </div>
+    <div>
+    <div class="inner-container">
+    <label for="emailField">Email:</label>
+   <input type="email" name = "userEmail" id ="emailField" placeholder ="your e-mail" autocomplete="off">
+  </div>
+    
+      <p class="error-text" id="error-Email"></p>
+      </div>
+   
+     
+    <div>
+      <div class="inner-container">
+      <label for="password1Field">Password 1:</label>
+        <input type="password" name = "password1" id ="password1Field" placeholder="your password" autocomplete="off">
+        <i class="fa-solid fa-eye" id="visibilityBtn1"></i>
+      
+      
+    </div>
+      <p class="error-text" id="error-password1"></p>
+    </div>
+
+
+    <div>
+      <div class="inner-container">
+      <label for="password2Field">Password 2:</label>
+     <input type="password" name = "password2" id ="password2Field" placeholder="repeat your password" autocomplete="off">
+      <i class="fa-solid fa-eye" id="visibilityBtn2"></i>
+      
+      
+    </div>
+    <p class="error-text" id="error-password2"></p>
+    </div>
+
+      
+      <div>
+        <div class="inner-div">
+        <label for="maleRadio">Male</label>
+        <input type="radio" name ="gender" id="maleRadio">
+        <label for="femaleRadio">Female</label>
+        <input type="radio" name="gender" id="femaleRadio">
+        </div>
+        <p class="error-text" id="error-gender"></p>
+      </div>
+        <div>
+          <div class="inner-div">
+          <input type="checkbox" name = "agree" id="agreeField">
+          <label for="agreeField">I read terms and conditions</label>
+          
+        </div>
+        <p class="error-text" id="error-agree"></p>
+      </div>
+        <button type = "submit" class = "submitBtn">Submit</button>
+
+
+      
+  
+  </form>
+</section>
+
+<script src="script.js" ></script>
+
+</body>
+</html>

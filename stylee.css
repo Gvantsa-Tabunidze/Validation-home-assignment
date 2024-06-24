@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+.error-text {
+  color: red;
+};
+
+.fa-eye {
+  color: blue;
+ 
+}
+.fa-eye-slash{
+  color: blue;
+  
+}
+
+
+
+#formValidation {
+  width:100%;
+  max-width: 600px;
+  height: 640px;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 60px;
+  margin-left: 60px;
+
+  
+}
+
+div {
+ display:block;
+ position: relative;
+ align-content: center;
+ padding-bottom: 24px;
+ 
+
+ 
+}
+
+input[type=text] {
+  display: block;
+  height:40px;
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: #84817a;
+  width: 100%;
+  padding: 0 12px;
+}
+
+input[type=text]:hover {
+ background-color: rgb(244, 244, 244);
+}
+
+input[type=email] {
+  display: block;
+  height:40px;
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: #84817a;
+  width: 100%;
+  padding: 0 12px;
+}
+input[type=email]:hover {
+  background-color: rgb(244, 244, 244);
+ }
+
+input[type=password] {
+  display: block;
+  height:40px;
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: #84817a;
+  width: 100%;
+  padding: 0 12px;
+}
+input[type=password]:hover {
+  background-color: rgb(244, 244, 244);
+ 
+ }
+
+input[type=checkbox] {
+  height: 20px;
+  width: 20px;
+  border-radius: 4px;
+  border: 1px solid #84817a;
+}
+
+input[type=radio] {
+  height: 20px;
+  width: 20px;
+  border-radius: 4px;
+  border: 1px solid #84817a;
+ 
+}
+
+.error-text {
+  position: absolute;
+  bottom: 0px;
+}
+
+label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  display: inline-block;
+ 
+
+}
+
+.inner-container {
+  padding-bottom: 0px;
+}
+
+.inner-div {
+  padding: 0px;
+  display: flex;
+  align-items:center;
+  gap: 8px;
+}
+i {
+  position: absolute;
+  top: 50%;
+  right: 16px;
+ visibility: hidden;
+}
+
+.submitBtn {
+  width: fit-content;
+  padding: 8px 12px;
+  position: absolute;
+ right:0px;
+ bottom:0;
+ background-color: #ffaf40;
+ border: none;
+ border-radius: 4px;
+ font-size: 16px;
+ color: #3d3d3d;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: 600;
+
+
+}
